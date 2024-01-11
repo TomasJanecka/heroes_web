@@ -11,6 +11,8 @@ export const Main: React.FC = () => {
         setActiveHero(hero)
     }
 
+    const tmp = 'ahoj';
+
     return <StyledMain>
         <SidePanel/>
         <Body>
