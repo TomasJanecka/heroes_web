@@ -1,44 +1,46 @@
-import { useState } from 'react';
-import { Container, Group, Burger } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import classes from './HeaderSimple.module.css';
+import {AllHeroes} from "../heroes/heroes";
+import styled from "styled-components";
+import React from "react";
 
-const links = [
-    { link: '/about', label: 'Features' },
-    { link: '/pricing', label: 'Pricing' },
-    { link: '/learn', label: 'Learn' },
-    { link: '/community', label: 'Community' },
-];
+type Props = {
+    activeHero: string;
+    changeHero: (hero: string) => void;
+};
 
-export function HeaderSimple() {
-    const [opened, { toggle }] = useDisclosure(false);
-    const [active, setActive] = useState(links[0].link);
+export const Header:React.FC<Props> = ({activeHero, changeHero}) => {
+    const heroes = Object.keys(AllHeroes)
 
-    const items = links.map((link) => (
-        <a
-            key={link.label}
-            href={link.link}
-            className={classes.link}
-            data-active={active === link.link || undefined}
-            onClick={(event) => {
-                event.preventDefault();
-                setActive(link.link);
-            }}
-        >
-            {link.label}
-        </a>
-    ));
+    console.log(heroes)
 
-    return (
-        <header className={classes.header}>
-            <Container size="md" className={classes.inner}>
-                {/*<MantineLogo size={28} />*/}
-                <Group gap={5} visibleFrom="xs">
-                    {items}
-                </Group>
-
-                <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
-            </Container>
-        </header>
-    );
+    return <StyledHeader>
+        {heroes.map((hero) => (
+            <Button key={hero} onClick={() => changeHero(hero)}>{hero}</Button>
+        ))}
+    </StyledHeader>
 }
+
+const StyledHeader = styled.div`
+    display: flex;
+    flex-flow: row;
+    width: 30rem;
+    height: 3rem;
+    margin: 1rem auto auto auto;
+    justify-content: space-around;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+`
+
+const Button = styled.button`
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    margin: auto;
+    background-color: #fefff5;
+    border-radius: 5px;
+    
+    &:hover {
+        background-color: lightblue;
+    }
+`
