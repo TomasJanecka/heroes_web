@@ -1,15 +1,23 @@
 import React from "react";
 import styled from "styled-components";
-import {IHero} from "../@types/api";
+import {ICard, IHero} from "../@types/api";
+import {ESidePanelItem} from "../@types/enums";
 
 type Props = {
     hero: IHero;
+    selectedPanelItem: ESidePanelItem;
 };
 
-export const HeroCards: React.FC<Props> = ({hero}) => {
-    const getHeroCards = () => hero.cards.map((card) => (
-        <Card key={card.image} src={require(`../heroes/${hero.name.toLowerCase()}/images/${card.image}`)} alt={"card"}/>
-    ))
+export const HeroCards: React.FC<Props> = ({hero, selectedPanelItem}) => {
+    const getHeroCards = () => {
+        console.log(selectedPanelItem)
+        return hero.cards.map((card) => (
+             <Card key={card.image} src={require(`../heroes/${hero.name.toLowerCase()}/images/${card.image}`)}
+                  alt={"card"}/>
+            // <CardBlock key={card.image}>
+            // {Object.values(hero).map((value) => value !== hero.cards && <span>{value}{"  "}</span>)}
+            //     </CardBlock>
+    ))}
 
     return <StyledHeroCards>
         {getHeroCards()}
@@ -23,6 +31,11 @@ const StyledHeroCards = styled.div`
 `
 
 const Card = styled.img`
+    width: 14rem;
+    height: 20rem;
+    margin: 5px auto auto auto;
+`
+const CardBlock = styled.div`
     width: 14rem;
     height: 20rem;
     margin: 5px auto auto auto;

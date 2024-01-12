@@ -1,6 +1,12 @@
+import {ECastType} from "./enums";
+
 export interface IHero {
     id: string;
     name: string;
+    redCards: string;
+    blueCards: string;
+    blackCards: string;
+    lightCards: string;
     cards: ICard[];
     damage: string,
     singleTargetAttackCount: string,
@@ -21,4 +27,14 @@ export interface IHero {
 
 export interface ICard {
     image: string;
+    castType: ECastType;
+}
+
+export interface ICardWeb {
+    id: string;
+    name: string;
+    keywords: string[];
+    image: string;
+    additionalInfo: string;
+    count: number;
 }
