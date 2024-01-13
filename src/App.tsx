@@ -1,14 +1,24 @@
-import {Button, createTheme, MantineProvider, Stack} from '@mantine/core';
-import React from 'react';
-import {Main} from "./containers/Main";
+import React, {useEffect} from 'react';
+import {Outlet, useNavigate} from "react-router-dom";
+import styled from "styled-components";
 
 function App() {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        navigate('/home')
+    }, [])
 
     return (
-        <div>
-            <Main/>
-        </div>
+        <StyledApp>
+            <Outlet/>
+        </StyledApp>
     );
 }
 
 export default App;
+
+const StyledApp = styled.div`
+    width: 100vw;
+    height: 100vh;
+`

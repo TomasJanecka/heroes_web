@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {IHero} from "../@types/api";
+import {IHero} from "../../@types/api";
 import React from "react";
 
 
