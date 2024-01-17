@@ -2,7 +2,7 @@
   "name": "heroes_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomasjanecka.github.io",
+  "homepage": "https://tomasjanecka.github.io/TomasJanecka.github.io",
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.14.1",
     "@emotion/react": "^11.11.3",
