@@ -1,17 +1,10 @@
 import React, {useEffect, useState} from "react";
-import {AllHeroes} from "../heroes/heroes";
-import {HeroCards} from "../components/heroes/HeroCards";
-import {Header} from "../components/Header";
 import styled from "styled-components";
-import {SidePanel} from "../components/heroes/SidePanel";
-import {ESidePanelItem} from "../@types/enums";
-import {HeroStatsBlock} from "../components/heroes/HeroStatsBlock";
+import {SidePanel} from "../heroes/SidePanel";
+import {ESidePanelItem} from "../../@types/enums";
 import {Button, Center, Grid, Group, Stack} from "@mantine/core";
-import {SidePanelMantine} from "../components/mantine/SidePanelMantine";
-import {HeroesBody} from "../components/heroes/HeroesBody";
-import {LandingPage} from "./LandingPage";
-import {Outlet, useNavigate} from "react-router-dom";
-import {TopNavbar} from "../components/mantine/TopNavbar";
+import {HeroesBody} from "../heroes/HeroesBody";
+import {TopNavbar} from "./TopNavbar";
 
 export const HeroesPage: React.FC = () => {
     const [activeHero, setActiveHero] = useState<string>('crystal')

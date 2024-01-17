@@ -1,5 +1,9 @@
 export enum EHero {
-    crystal, toxic, druid, knight
+    crystal= "crystal", toxic = "toxic"
+}
+
+export enum EScrollColor {
+    crystal= "#4287f5", toxic = "#8ddb39"
 }
 
 export enum ESidePanelItem {

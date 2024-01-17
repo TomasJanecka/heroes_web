@@ -10,7 +10,7 @@ type Props = {
 
 export const HeroCards: React.FC<Props> = ({hero, selectedPanelItem}) => {
     const getHeroCards = () => {
-        console.log(selectedPanelItem)
+        // console.log(selectedPanelItem)
         return hero.cards.map((card) => (
              <Card key={card.image} src={require(`../../heroes/${hero.name.toLowerCase()}/images/${card.image}`)}
                   alt={"card"}/>

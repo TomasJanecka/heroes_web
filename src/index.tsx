@@ -8,8 +8,8 @@ import {LandingPage} from "./containers/LandingPage";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {ErrorPage} from "./errors/ErrorPage";
 import {Rules} from "./components/rules/Rules";
-import {HeroesPage} from "./containers/HeroesPage";
 import App from "./App";
+import {Heroes} from "./containers/Heroes";
 
 const theme = createTheme({
     fontFamily: 'Open Sans, sans-serif',
@@ -27,7 +27,7 @@ const router = createBrowserRouter([{
         path: '/rules',
         element: <Rules/>,
         errorElement: <ErrorPage/>
-    }, {path: '/heroes', element: <HeroesPage/>, errorElement: <ErrorPage/>}]
+    }, {path: '/heroes', element: <Heroes/>, errorElement: <ErrorPage/>}]
 }])
 
 const root = ReactDOM.createRoot(
