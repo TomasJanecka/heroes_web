@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heroes_web/static/css/main.a274ac25.css",
-    "main.js": "/heroes_web/static/js/main.076e63a6.js",
+    "main.js": "/heroes_web/static/js/main.e320855a.js",
     "static/js/787.79edb045.chunk.js": "/heroes_web/static/js/787.79edb045.chunk.js",
     "static/media/landingPage.jpg": "/heroes_web/static/media/landingPage.6d0f46b5bafe54a05354.jpg",
     "static/media/knightHero.png": "/heroes_web/static/media/knightHero.4f6ab3e9ddec9725c125.png",
@@ -25,11 +25,11 @@
     "static/media/toxicHero.png": "/heroes_web/static/media/toxicHero.7b7d8521f9db4a8b64bb.png",
     "index.html": "/heroes_web/index.html",
     "main.a274ac25.css.map": "/heroes_web/static/css/main.a274ac25.css.map",
-    "main.076e63a6.js.map": "/heroes_web/static/js/main.076e63a6.js.map",
+    "main.e320855a.js.map": "/heroes_web/static/js/main.e320855a.js.map",
     "787.79edb045.chunk.js.map": "/heroes_web/static/js/787.79edb045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a274ac25.css",
-    "static/js/main.076e63a6.js"
+    "static/js/main.e320855a.js"
   ]
 }
