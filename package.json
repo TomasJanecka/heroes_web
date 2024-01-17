@@ -2,10 +2,14 @@
   "name": "heroes_web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tomasjanecka.github.io",
   "dependencies": {
+    "@cyntler/react-doc-viewer": "^1.14.1",
+    "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mantine/core": "^7.4.1",
     "@mantine/hooks": "^7.4.1",
+    "@mui/material": "^5.15.5",
     "@tabler/icons-react": "^2.45.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -28,6 +32,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,6 +56,8 @@
     ]
   },
   "devDependencies": {
+    "@mui/icons-material": "^5.15.5",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.33",
     "postcss-preset-mantine": "^1.12.3",
     "postcss-simple-vars": "^7.0.1"
