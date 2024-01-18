@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heroes_web/static/css/main.5d8ce17d.css",
-    "main.js": "/heroes_web/static/js/main.05fe03e5.js",
+    "main.js": "/heroes_web/static/js/main.e6e97bd4.js",
     "static/js/787.79edb045.chunk.js": "/heroes_web/static/js/787.79edb045.chunk.js",
     "static/media/pravidlaMoroTest.pdf": "/heroes_web/static/media/pravidlaMoroTest.3931efb6c7a4d79226c1.pdf",
     "static/media/knightHero.png": "/heroes_web/static/media/knightHero.4f6ab3e9ddec9725c125.png",
@@ -25,11 +25,11 @@
     "static/media/toxicHero.png": "/heroes_web/static/media/toxicHero.7b7d8521f9db4a8b64bb.png",
     "index.html": "/heroes_web/index.html",
     "main.5d8ce17d.css.map": "/heroes_web/static/css/main.5d8ce17d.css.map",
-    "main.05fe03e5.js.map": "/heroes_web/static/js/main.05fe03e5.js.map",
+    "main.e6e97bd4.js.map": "/heroes_web/static/js/main.e6e97bd4.js.map",
     "787.79edb045.chunk.js.map": "/heroes_web/static/js/787.79edb045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8ce17d.css",
-    "static/js/main.05fe03e5.js"
+    "static/js/main.e6e97bd4.js"
   ]
 }
