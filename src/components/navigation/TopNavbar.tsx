@@ -57,7 +57,6 @@ const HeroButtons = styled.div`
   display: flex;
   margin: auto;
 
-  background-color: #61dafb;
   justify-content: space-around;
   align-items: inherit;
 `;
@@ -72,21 +71,30 @@ const StyledButton = styled.button<{ $justify: string; $heroColor: string }>`
   justify-self: ${(props) => props.$justify};
   //justify-self: stretch;
 
+  font-weight: bold;
   text-align: center;
+  border-radius: 10px;
+  color: ${(props) => props.$heroColor};
 
   &:hover {
     background-color: ${(props) => props.$heroColor};
-    color: #282c34;
+    //color: #282c34;
+    color: black;
   }
 `;
 
 const HomeButton = styled(StyledButton)`
   width: fit-content;
+  height: inherit;
   background-color: inherit;
   border: none;
-  border-radius: 10px;
   margin-left: 0.5rem;
-  padding: 2px;
+  padding: 5px;
 
   color: #dbe4ff;
+
+  &:hover {
+    background-color: whitesmoke;
+    color: brown;
+  }
 `;
