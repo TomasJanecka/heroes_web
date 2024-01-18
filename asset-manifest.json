@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/heroes_web/static/css/main.a274ac25.css",
-    "main.js": "/heroes_web/static/js/main.e320855a.js",
+    "main.css": "/heroes_web/static/css/main.5d8ce17d.css",
+    "main.js": "/heroes_web/static/js/main.05fe03e5.js",
     "static/js/787.79edb045.chunk.js": "/heroes_web/static/js/787.79edb045.chunk.js",
-    "static/media/landingPage.jpg": "/heroes_web/static/media/landingPage.6d0f46b5bafe54a05354.jpg",
+    "static/media/pravidlaMoroTest.pdf": "/heroes_web/static/media/pravidlaMoroTest.3931efb6c7a4d79226c1.pdf",
     "static/media/knightHero.png": "/heroes_web/static/media/knightHero.4f6ab3e9ddec9725c125.png",
     "static/media/f1.png": "/heroes_web/static/media/f1.286b7ec8edfe896cdb53.png",
     "static/media/druidHero.png": "/heroes_web/static/media/druidHero.aba6bfd0ac0dc3acd4d1.png",
@@ -24,12 +24,12 @@
     "static/media/f14.png": "/heroes_web/static/media/f14.130d7ec256b28441ad9c.png",
     "static/media/toxicHero.png": "/heroes_web/static/media/toxicHero.7b7d8521f9db4a8b64bb.png",
     "index.html": "/heroes_web/index.html",
-    "main.a274ac25.css.map": "/heroes_web/static/css/main.a274ac25.css.map",
-    "main.e320855a.js.map": "/heroes_web/static/js/main.e320855a.js.map",
+    "main.5d8ce17d.css.map": "/heroes_web/static/css/main.5d8ce17d.css.map",
+    "main.05fe03e5.js.map": "/heroes_web/static/js/main.05fe03e5.js.map",
     "787.79edb045.chunk.js.map": "/heroes_web/static/js/787.79edb045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a274ac25.css",
-    "static/js/main.e320855a.js"
+    "static/css/main.5d8ce17d.css",
+    "static/js/main.05fe03e5.js"
   ]
 }
