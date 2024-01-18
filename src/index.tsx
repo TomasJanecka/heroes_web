@@ -11,6 +11,7 @@ import { Rules } from "./components/rules/Rules";
 import App from "./App";
 import { Heroes } from "./containers/Heroes";
 
+
 const theme = createTheme({
   fontFamily: "Open Sans, sans-serif",
   primaryColor: "cyan",

@@ -35,6 +35,7 @@ export interface ICardWeb {
     name: string;
     keywords: string[];
     image: string;
+    description: string;
     additionalInfo: string;
     count: number;
 }

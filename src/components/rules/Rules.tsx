@@ -1,3 +1,5 @@
+import {PDFReader} from "../pdf/PdfReader";
+
 export const Rules = () => {
-  return<>Rules</>
+  return <div><PDFReader/></div>
 }
