@@ -2,7 +2,7 @@
   "name": "heroes_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomasjanecka.github.io/TomasJanecka.github.io",
+  "homepage": "https://tomasjanecka.github.io/heroes_web",
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.14.1",
     "@emotion/react": "^11.11.3",
@@ -20,6 +20,7 @@
     "@types/react-dom": "^18.2.18",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "prettier": "^3.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",
@@ -33,7 +34,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
