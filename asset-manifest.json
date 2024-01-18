@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/heroes_web/static/css/main.5d8ce17d.css",
-    "main.js": "/heroes_web/static/js/main.9d8927a1.js",
+    "main.js": "/heroes_web/static/js/main.5cf42a85.js",
     "static/js/787.79edb045.chunk.js": "/heroes_web/static/js/787.79edb045.chunk.js",
-    "static/media/pravidlaMoroTest.pdf": "/heroes_web/static/media/pravidlaMoroTest.3931efb6c7a4d79226c1.pdf",
+    "static/media/pravidlaV2.pdf": "/heroes_web/static/media/pravidlaV2.8395d1fd7105b7dc03e6.pdf",
     "static/media/knightHero.png": "/heroes_web/static/media/knightHero.4f6ab3e9ddec9725c125.png",
     "static/media/f1.png": "/heroes_web/static/media/f1.286b7ec8edfe896cdb53.png",
     "static/media/druidHero.png": "/heroes_web/static/media/druidHero.aba6bfd0ac0dc3acd4d1.png",
@@ -25,11 +25,11 @@
     "static/media/toxicHero.png": "/heroes_web/static/media/toxicHero.7b7d8521f9db4a8b64bb.png",
     "index.html": "/heroes_web/index.html",
     "main.5d8ce17d.css.map": "/heroes_web/static/css/main.5d8ce17d.css.map",
-    "main.9d8927a1.js.map": "/heroes_web/static/js/main.9d8927a1.js.map",
+    "main.5cf42a85.js.map": "/heroes_web/static/js/main.5cf42a85.js.map",
     "787.79edb045.chunk.js.map": "/heroes_web/static/js/787.79edb045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8ce17d.css",
-    "static/js/main.9d8927a1.js"
+    "static/js/main.5cf42a85.js"
   ]
 }
