@@ -1,9 +1,9 @@
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 
 export const WordReader = () => {
-    const docs = [
-        { uri: require("./example-files/pdf.pdf") }, // Local File
-    ];
+  const docs = [
+    { uri: require("./pravidlaMoroTest.pdf") }, // Local File
+  ];
 
-    return <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />;
-}
+  return <DocViewer documents={docs} pluginRenderers={DocViewerRenderers} />;
+};

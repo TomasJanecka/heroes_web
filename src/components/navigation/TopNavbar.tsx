@@ -15,9 +15,12 @@ export const TopNavbar: FC<Props> = ({ activeHero, changeHero }) => {
 
   return (
     <StyledTopNavbar>
-      {/*<Link to={`/home`}>*/}
-      {/*    <HomeButton $heroColor={'grey'} $justify={'start'}><HomeIcon sx={{color: "brown"}}/></HomeButton>*/}
-      {/*</Link>*/}
+      <Link to={`/rules`}>
+        {/*<HomeButton $heroColor={'grey'} $justify={'start'}><HomeIcon sx={{color: "brown"}}/></HomeButton>*/}
+        <HomeButton $heroColor={"grey"} $justify={"start"}>
+          Rules
+        </HomeButton>
+      </Link>
       <HeroButtons>
         <StyledButton
           $heroColor={THeroColor["crystal"]}
@@ -84,4 +87,6 @@ const HomeButton = styled(StyledButton)`
   border-radius: 10px;
   margin-left: 0.5rem;
   padding: 2px;
+
+  color: #dbe4ff;
 `;
