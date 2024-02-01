@@ -1,2 +1,37 @@
-export const non = {}
+export const CardKeywords = [
+  "red",
+  "blue",
+  "black",
+  "light",
+  "attackR",
+  "castR",
+  "attack",
+  "other",
+  "move",
+  "unit",
+  "trap",
+  "tower",
+  "bomb",
+  "enemy",
+  "ally",
+  "arena",
+  "self",
+  "card",
+  "discard",
+  "buff",
+  "disable",
+  "block",
+];
 
+export const CardSpecialization = [
+  "útok",
+  "bezDolozenia",
+  "jednotka",
+  "jednotkaTyp",
+  "pohyb",
+  "zmenaStatusu",
+  "blok",
+  "heal",
+  "aoe",
+  "vsetci na tvojej pozicii",
+];
