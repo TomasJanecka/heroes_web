@@ -1,11 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styled from "styled-components";
-import {Button, Center, Grid, Group, Stack} from "@mantine/core";
 import {TopNavbar} from "../components/navigation/TopNavbar";
 import {EHero, EScrollColor, ESidePanelItem} from "../@types/enums";
-import {SidePanel} from "../components/heroes/SidePanel";
-import {Header} from "../components/Header";
-import {HeroStatsBlock} from "../components/heroes/HeroStatsBlock";
 import {AllHeroes} from "../heroes/heroes";
 import {HeroCards} from "../components/heroes/HeroCards";
 
@@ -43,8 +39,6 @@ const StyledHeroes = styled.div<{$scrollColor: string}>`
     
     align-items: center;
 
-    //background-color: lightblue;
-
     ::-webkit-scrollbar {
         width: 10px;
     }
@@ -70,7 +64,4 @@ const Body = styled.div`
     max-height: 100vh;
     padding: 0.5rem;
     overflow-y: auto;
-
-    /* width */
-   
 `

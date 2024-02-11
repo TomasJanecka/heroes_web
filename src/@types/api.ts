@@ -29,13 +29,3 @@ export interface ICard {
     image: string;
     castType: ECastType;
 }
-
-export interface ICardWeb {
-    id: string;
-    name: string;
-    keywords: string[];
-    image: string;
-    description: string;
-    additionalInfo: string;
-    count: number;
-}

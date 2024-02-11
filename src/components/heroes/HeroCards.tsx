@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {ICard, IHero} from "../../@types/api";
+import {IHero} from "../../@types/api";
 import {ESidePanelItem} from "../../@types/enums";
 
 type Props = {
