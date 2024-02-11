@@ -24,14 +24,16 @@ export const CardKeywords = [
 ];
 
 export const CardSpecialization = [
-  "útok",
-  "bezDolozenia",
-  "jednotka",
-  "jednotkaTyp",
-  "pohyb",
-  "zmenaStatusu",
-  "blok",
+  "attack",
+  "noBlack",
+  "unit",
+  "tower",
+  "bomb",
+  "trap",
+  "movement",
+  "statusChange",
+  "block",
   "heal",
   "aoe",
-  "vsetci na tvojej pozicii",
+  "yourPosition",
 ];

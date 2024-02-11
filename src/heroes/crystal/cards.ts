@@ -11,6 +11,39 @@ export const CrystalCard1: ICardWeb = {
   count: 5,
 };
 
+export const LadovaGula = {
+  id: "ladovaGula",
+  name: "Ľadová guľa",
+  hero: "crystal",
+  image: "f1.png",
+  keywords: ["red", "attackR", "attack", "enemy", "disable"],
+  target: ["enemy"],
+  description:
+    "Zaútoč na nepriateľa, ak už je nepriateľ spomalený, zakoreníš ho (dolož túto kartu k prvej karte so spomalením)",
+  additionalInfo: "",
+  count: 5,
+  specialNeed: [],
+};
+
+export const CrystalHero = {
+  id: "crystal",
+  name: "Crystal",
+  image: "crystalHero.png",
+  states: [], // stavy hrdinu
+  position: 0,
+  attackRange: 0,
+  castRange: 0,
+  attack: 1,
+  hp: 4,
+  maxHp: 4,
+  hand: [], // karty na ruke
+  deck: [], // tahaci balicek
+  discard: [], // odhadzovaci balicek
+  team: 1,
+  movement: 1,
+  hasEffects: ["ladovyKrystal"], // id karty ktore maju na neho effekt a daju sa zahrat
+};
+
 export const CrystalCard2: ICardWeb = {
   id: "ladovyMeteor",
   name: "Ľadový meteor",
